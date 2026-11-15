@@ -1,0 +1,11 @@
+{
+  "description": "Manual reading leads for context, not certified evidence grading.",
+  "references": [
+    {"gene":"LETM2","title":"LETM2 regulates mitochondrial function and autophagy in diabetic foot ulcers","year":2025,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12638387/","note":"Phenotypic study; does not establish direct ion transport."},
+    {"gene":"TMEM143","title":"TMEM143 and mitochondrial calcium / fusion dynamics (thesis)","year":2026,"url":"https://thesis.unipd.it/handle/20.500.12608/105412","note":"Thesis report; direct transport activity unestablished."},
+    {"gene":"SLC25A43","title":"SLC25A43 reference — linked from initial registry","year":2026,"url":"https://onlinelibrary.wiley.com/doi/full/10.1002/pro.70537","note":"Check review context and publication metadata before citing."},
+    {"gene":"SLC35F1","title":"SLC35F1 recycling endosome localization study","year":2024,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11203873/","note":"Established trafficking/localization; not a demonstration of direct solute transport."},
+    {"gene":"SLC35F4","title":"Computational FAD transport prediction for SLC35F4/F5","year":2026,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12786601/","note":"Computational prediction; confirm experimentally."},
+    {"gene":"SLC35F5","title":"Computational FAD transport prediction for SLC35F4/F5","year":2026,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12786601/","note":"Computational prediction; confirm experimentally."}
+  ]
+}

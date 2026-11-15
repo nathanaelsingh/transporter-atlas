@@ -1,0 +1,63 @@
+name: Update literature and deploy atlas
+
+on:
+  schedule:
+    # Every Monday at 08:23 Eastern time (GitHub supports timezone-aware schedules).
+    - cron: '23 8 * * 1'
+      timezone: America/New_York
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site.template.html'
+      - 'scripts/**'
+      - 'data/targets.json'
+      - 'data/curated_references.json'
+      - '.github/workflows/update-and-deploy.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'transporter-atlas-pages'
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh public article metadata
+        run: python scripts/update_literature.py
+      - name: Build offline-capable standalone site
+        run: python scripts/build_site.py
+      - name: Persist literature snapshot and built site
+        # The same workflow directly deploys the site after this commit.
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/literature.json docs/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh literature watch metadata"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: refresh
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
