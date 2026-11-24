@@ -1,161 +1,161 @@
 {
-  "last_full_run": "2026-11-16T22:56:16+00:00",
+  "last_full_run": "2026-11-24T01:01:40+00:00",
   "schema_version": 2,
   "provider": "Europe PMC REST API",
   "disclaimer": "Automatically surfaced publication metadata; no direct transport or functional claim is established by a match.",
   "per_target": {
     "LETM2": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 15,
       "items_indexed": 8
     },
     "SLC25A43": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 19,
       "items_indexed": 8
     },
     "SLC35F1": {
-      "last_checked": "2026-11-16",
-      "hit_count": 21,
+      "last_checked": "2026-11-24",
+      "hit_count": 20,
       "items_indexed": 8
     },
     "SLC35F4": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 11,
       "items_indexed": 8
     },
     "SLC35F5": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 9,
       "items_indexed": 8
     },
     "TMEM143": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 1,
       "items_indexed": 1
     },
     "SFXN2": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 25,
       "items_indexed": 8
     },
     "SFXN4": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 29,
       "items_indexed": 8
     },
     "SFXN5": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 19,
       "items_indexed": 8
     },
     "SLC22A18": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 74,
       "items_indexed": 8
     },
     "SLC25A53": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 2,
       "items_indexed": 2
     },
     "SLC35A4": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 18,
       "items_indexed": 8
     },
     "SLC35A5": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 4,
       "items_indexed": 4
     },
     "SLC35E1": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 11,
       "items_indexed": 8
     },
     "SLC35E2B": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 2,
       "items_indexed": 2
     },
     "SLC35E3": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 6,
       "items_indexed": 6
     },
     "SLC35E4": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 6,
       "items_indexed": 6
     },
     "SLC35G4": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 2,
       "items_indexed": 2
     },
     "SLC35G5": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 3,
       "items_indexed": 3
     },
     "SLC35G6": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 2,
       "items_indexed": 2
     },
     "SLC37A3": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 21,
       "items_indexed": 8
     },
     "SLC38A10": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 31,
       "items_indexed": 8
     },
     "SLC66A2": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 0,
       "items_indexed": 0
     },
     "SLC66A3": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 0,
       "items_indexed": 0
     },
     "SLC10A4": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 29,
       "items_indexed": 8
     },
     "SLC16A14": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 16,
       "items_indexed": 8
     },
     "SLC38A11": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 13,
       "items_indexed": 8
     },
     "TMEM63C": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 17,
       "items_indexed": 8
     },
     "TMEM87B": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 17,
       "items_indexed": 8
     },
     "SLC35F6": {
-      "last_checked": "2026-11-16",
-      "hit_count": 12,
+      "last_checked": "2026-11-24",
+      "hit_count": 11,
       "items_indexed": 8
     },
     "SLC35G2": {
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-24",
       "hit_count": 7,
       "items_indexed": 7
     }
@@ -1267,19 +1267,6 @@
       "first_seen": "2026-11-15"
     },
     {
-      "key": "PMC:PMC11203873",
-      "gene": "SLC35F1",
-      "title": "Residence of the Nucleotide Sugar Transporter Family Members SLC35F1 and SLC35F6 in the Endosomal/Lysosomal Pathway",
-      "year": "2024",
-      "date": "2024-06-01",
-      "journal": "Int J Mol Sci",
-      "source": "PMC",
-      "pmid": "",
-      "doi": "",
-      "url": "https://europepmc.org/article/PMC/PMC11203873",
-      "first_seen": "2026-11-15"
-    },
-    {
       "key": "PPR:PPR773028",
       "gene": "SLC35F1",
       "title": "Genome-wide association study of delay discounting in Heterogenous Stock rats",
@@ -1291,6 +1278,19 @@
       "doi": "10.1101/2023.12.12.570851",
       "url": "https://doi.org/10.1101/2023.12.12.570851",
       "first_seen": "2026-11-15"
+    },
+    {
+      "key": "PPR:PPR710339",
+      "gene": "SLC35F1",
+      "title": "Parkinson’s Disease and Epilepsy: A bioinformatics analysis",
+      "year": "2023",
+      "date": "2023-08-22",
+      "journal": "",
+      "source": "PPR",
+      "pmid": "",
+      "doi": "10.21203/rs.3.rs-3257860/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-3257860/v1",
+      "first_seen": "2026-11-24"
     },
     {
       "key": "PPR:PPR1254112",
@@ -2594,5 +2594,5 @@
     }
   ],
   "sync_failures": [],
-  "last_attempted_run": "2026-11-16T22:56:16+00:00"
+  "last_attempted_run": "2026-11-24T01:01:40+00:00"
 }
